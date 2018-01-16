@@ -2,7 +2,6 @@
 
 const solution = module.exports = {};
 
-var array = [-7, 17, 45, 45];
 
 solution.challenge = function (array) {
   if (array.length == 0) {
