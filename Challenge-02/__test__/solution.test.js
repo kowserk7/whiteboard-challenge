@@ -1,6 +1,6 @@
 'use strict';
 
-const solution = require ('../solution.js');
+const solution = require ('../lib/solution.js');
 
 describe ('Solution Module', function () {
   describe ('#return', function () {
