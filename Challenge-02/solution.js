@@ -1,18 +1,22 @@
 'use strict';
 
-var array = [-7, 17, 6, -7, 44.33, 12, 6, 145, 67];
+var array = [-7, 17, 45, 45];
 
 function challenge(arr) {
-  if (array == [ ]) {
+  if (arr.length == 0) {
     return null;
   }
-  if (typeof arr !== 'number') {
-    return null;
-  } else {
+  else if (arr.every(x => typeof x === 'number') ) {
+    arr.sort(function (a, b) { return b - a; });
     return {
-      first: arr.sort(function (a, b) { return a - b; })[0],
-      second: arr.sort(function (a, b) { return a - b; }) [1],
+      first: arr[0],
+      second: arr[1] === arr[0] ? arr[2]: arr[1],
     };
+  } else {
+    return null;
   }
 }
-challenge(array); 
+
+challenge(array);
+
+
