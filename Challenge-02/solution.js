@@ -3,6 +3,9 @@
 var array = [-7, 17, 6, -7, 44.33, 12, 6, 145, 67];
 
 function challenge(arr) {
+  if (array == [ ]) {
+    return null;
+  }
   if (typeof arr !== 'number') {
     return null;
   } else {
