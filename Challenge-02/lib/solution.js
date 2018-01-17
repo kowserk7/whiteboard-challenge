@@ -8,7 +8,7 @@ solution.challenge = function (array) {
     arr.push(Math.round(array[i]));
   }
   if (arr.length == 0) {
-    return null;
+    return 'empty array';
   }
   if (arr.every(x => typeof x === 'number') ) {
     arr.sort(function (a, b) { return b - a; });
@@ -17,7 +17,7 @@ solution.challenge = function (array) {
       second: arr[1] === arr[0] ? arr[2]: arr[1],
     };
   } else {
-    return null;
+    return 'only integers';
   }
 };
 
