@@ -1,0 +1,14 @@
+{
+  "name": "challenge-03",
+  "version": "1.0.0",
+  "description": "whiteboard challenge 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "koko",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^22.1.2"
+  }
+}
