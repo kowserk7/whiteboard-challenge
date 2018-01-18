@@ -10,5 +10,8 @@ describe ('Solution Module', () => {
     it ('should contain a value in the paramaters', () => {
       expect (solution.intersect()).toBeNull();
     });
+    it ('should only accept arrays', () => {
+      expect(solution.intersect('a, b, c', 'c, d, e')).toEqual('Not an array');
+    });
   });
 });
