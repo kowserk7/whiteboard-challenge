@@ -24,12 +24,14 @@ class SLL {
   findMiddle() {
     let counter = 0;
     for(var itr = this.head; itr.next; itr = itr.next) {
-      if (itr.value === null)
-        console.log(itr);
+      if (itr.value === null) {
+        console.log(itr.value);
+        return null;
+      }
        
       counter++;
     }
-    let middle = Math.floor(counter/2);
+    let middle = Math.ceil(counter/2);
     let newCounter = 0;
     for(var itrNew = this.head; newCounter < middle; itrNew = itrNew.next) {
       newCounter++;
