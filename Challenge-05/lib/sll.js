@@ -24,7 +24,7 @@ class SLL {
   findMiddle() {
     let counter = 0;
     for(var itr = this.head; itr.next; itr = itr.next) {
-      if (itr.value === null) {
+      if (itr.value == null) {
         console.log(itr.value);
         return null;
       }
