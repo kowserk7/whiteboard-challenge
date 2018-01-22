@@ -1,0 +1,17 @@
+{
+  "name": "challenge-06",
+  "version": "1.0.0",
+  "description": "recursive loop function",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Koko",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.1.4"
+  }
+}
