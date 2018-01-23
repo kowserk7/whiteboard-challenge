@@ -1,0 +1,17 @@
+{
+  "name": "challenge-07",
+  "version": "1.0.0",
+  "description": "whiteboard challenge 07",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Koko",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^22.1.4"
+  }
+}
