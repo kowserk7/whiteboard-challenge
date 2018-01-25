@@ -1,0 +1,17 @@
+{
+  "name": "challenge-08",
+  "version": "1.0.0",
+  "description": "linked list intersection challenge",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Koko Kassa",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^22.1.4"
+  }
+}
