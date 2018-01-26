@@ -1,0 +1,17 @@
+{
+  "name": "challenge-09",
+  "version": "1.0.0",
+  "description": "getting the nth node from the last node",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Koko Kassa",
+  "license": "MIT ",
+  "dependencies": {
+    "jest": "^22.1.4"
+  }
+}
