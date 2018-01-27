@@ -1,11 +1,7 @@
 'use strict';
 
 const Stack = require('./stack');
-
 const solution = module.exports = {};
-
-let string = '{hahshaj}jdisfklsda{jfkdsjfa}{klsdfml;as}{nkdsfa}{nfkdsanf;}}}{{{}{}';
-let string2 = '{aa}{bb}{cc}{dd}{ee}{ff}';
 
 solution.checkBraces = function (string) {
   let test = new Stack;
