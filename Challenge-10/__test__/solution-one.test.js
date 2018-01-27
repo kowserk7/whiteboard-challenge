@@ -1,6 +1,6 @@
 'use strict';
 
-const solution = require('../lib/solution');
+const solution = require('../lib/solution-one');
 
 describe('Solution Module', () => {
   describe('solution', () => {
