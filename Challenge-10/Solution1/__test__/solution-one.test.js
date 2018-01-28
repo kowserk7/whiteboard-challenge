@@ -1,21 +1,22 @@
 'use strict';
 
-const solution = require('../lib1/solution-one');
+const solution = require('../lib/solution');
 
 describe('Solution Module', () => {
   
   describe('binary Search', () => {
     let string = '{hahshaj}jdisfklsda{jfkdsjfa}{klsdfml;as}{nkdsfa}{nfkdsanf;}}}{{{}{}';
     let string2 = '{aa}{bb}{cc}{dd}{ee}{ff}';
+    let string3 = [];
 
-    it('should return null if input is not in given array', () => {
-      expect(solution.checkBraces(string)).toBeNull();
+    it('should return null if braces do not match ', () => {
+      expect(solution.checkBraces(string)).toEqual('Braces do not match');
     });
-    it('should return the the index of n in the array', () => {
-      expect(solution.checkBraces(string2)).toBe();
+    it('should return truth if the braces match', () => {
+      expect(solution.checkBraces(string2)).toEqual('Braces match');
     });
-    it('should return null if given array is empty', () => {
-      expect(solution.checkBraces()).toBeNull();
+    it('should return null if not a string', () => {
+      expect(solution.checkBraces(string3)).toBeNull();
     });
   });
 });

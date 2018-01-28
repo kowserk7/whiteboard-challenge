@@ -4,6 +4,7 @@ const Stack = require('./stack');
 const solution = module.exports = {};
 
 solution.checkBraces = function (string) {
+  if (typeof string !== 'string') return null;
   let test = new Stack;
   let array = string.split('');
   if (typeof string !== 'string') return null;

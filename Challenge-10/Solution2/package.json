@@ -1,7 +1,7 @@
 {
-  "name": "challenge-10",
+  "name": "solution2",
   "version": "1.0.0",
-  "description": "two whiteboard challenge - stack and queues - binary search",
+  "description": "",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "author": "Koko",
-  "license": "MIT ",
+  "license": "MIT",
   "dependencies": {
     "jest": "^22.1.4"
   }
