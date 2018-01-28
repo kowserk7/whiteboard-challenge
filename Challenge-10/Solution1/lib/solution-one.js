@@ -24,7 +24,5 @@ solution.checkBraces = function (string) {
   console.log(test);
   console.log(test.top);
 };
-solution.checkBraces(string);
-
 
 
