@@ -1,0 +1,17 @@
+{
+  "name": "challenge-12",
+  "version": "1.0.0",
+  "description": "implement a queue with two staxks",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Koko",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.16.0"
+  }
+}
