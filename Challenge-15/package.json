@@ -1,7 +1,7 @@
 {
-  "name": "challenge-12",
+  "name": "challenge-15",
   "version": "1.0.0",
-  "description": "implement a queue with two staxks",
+  "description": "tree data structure",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -9,11 +9,10 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "Koko",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "eslint": "^4.16.0",
     "jest": "^22.1.4"
-  },
-  "devDependencies": {}
+  }
 }

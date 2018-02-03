@@ -6,25 +6,21 @@ module.exports =  class Queue {
   constructor(maxSize= 1048) {
     this.maxSize = maxSize;
     this.size = 0;
-    this.top = null;
-    this.bottom = null;
+    this.stackIn = new Stack(maxSize);
+    this.stackOut = new Stack(maxSize);
   } 
 
   enqueue(value) {
     if (this.size === this.maxSize) throw new Error ('Queue overflow!');
-    let node = new Node(value);
-    node.next = this.top;
-    this.top = node;
-    if (!this.end) this.bottom = node;
-    this.size++;
-    return this;
+    if (!value && value !==0) throw new Error('Value must be valid');
+
+    this.stackIn.push(value);
+    this.size ++;
   }
 
   dequeue() {
-    let newTop = this.top;
-    this.top = this.top.next;
-    newTop.next = null;
-    this.size --;
-    return newTop;
+    if (!this.size) throw new Error('Queue is empty!!');
+    if (!this.stackOut.size)
+      while(this.stackIn.size) this.stackOut.push(this.stackIn.pop());
   }
 };
