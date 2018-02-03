@@ -19,8 +19,23 @@ module.exports =  class Queue {
   }
 
   dequeue() {
-    if (!this.size) throw new Error('Queue is empty!!');
+    // BigO(1) to dequeue an item. the operation of moving items
+    // from the in stack to the out stack is amortized away since
+    // it will happen increasingly rarely the greater the number of
+    // items present in the Queue
+    if (!this.size)
+      throw new Error('Queue is empty!!');
+
+    // Only ever move items from in stack to out stack when out is
+    // empty and a dequeue call is received
     if (!this.stackOut.size)
-      while(this.stackIn.size) this.stackOut.push(this.stackIn.pop());
+      while (this.stackIn.size) this.stackOut.push(this.stackIn.pop());
+
+    this.size--;
+    return this.stackOut.pop();
+
+    // if (!this.size) throw new Error('Queue is empty!!');
+    // if (!this.stackOut.size)
+    //   while(this.stackIn.size) this.stackOut.push(this.stackIn.pop());
   }
 };
