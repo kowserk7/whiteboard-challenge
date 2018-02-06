@@ -17,14 +17,14 @@ describe('Solution Module', () => {
       expect(solution.arr(this.oneNode)).toBeInstanceOf(Array);
     });
   });
-  describe('Valid input/output with two childless nodes', () => {
+  describe('Valid input/output with three childless nodes', () => {
     it('should return an array', () => {
       expect(solution.arr(this.tree)).toBeInstanceOf(Array);
     });
-    it('should return an array with two nodes', () => {
+    it('should return an array with three nodes', () => {
       expect(solution.arr(this.tree).length).toEqual(3);
     });
-    it('should return an array with two nodes, with values of 2, 3 and 4', () => {
+    it('should return an array with three nodes, with values of 2, 3 and 4', () => {
       expect(solution.arr(this.tree)[0].val).toEqual(2);
       expect(solution.arr(this.tree)[1].val).toEqual(3);
       expect(solution.arr(this.tree)[2].val).toEqual(4);
