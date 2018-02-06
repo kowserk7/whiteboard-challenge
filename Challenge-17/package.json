@@ -1,0 +1,25 @@
+{
+  "name": "challenge-17",
+  "version": "1.0.0",
+  "description": "sum of tree values data structure",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Koko",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.16.0",
+    "jest": "^22.1.4"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "k-ary",
+    "tree",
+    "data",
+    "structure"
+  ]
+}
