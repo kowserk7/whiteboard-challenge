@@ -1,0 +1,15 @@
+{
+  "name": "challenge-26",
+  "version": "1.0.0",
+  "description": "Whiteboard Challenge Requirements Create a utils.js module which exports the following methods: map(), filter(), and reduce(). You will implement these methods from scratch, not utilizing the built-in array methods.",
+  "main": "solution.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Koko",
+  "license": "ISC",
+  "dependencies": {}
+}
