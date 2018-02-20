@@ -1,0 +1,17 @@
+{
+  "name": "challenge-27",
+  "version": "1.0.0",
+  "main": "solution.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jest": "^22.4.0"
+  }
+}
