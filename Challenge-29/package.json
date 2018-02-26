@@ -1,0 +1,18 @@
+{
+  "name": "challenge-29",
+  "version": "1.0.0",
+  "description": "29: Whiteboard Challenge Requirements Write a method to sort an array of strings so that all the anagrams are next to each other",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Koko",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.18.1",
+    "jest": "^22.4.2"
+  }
+}
