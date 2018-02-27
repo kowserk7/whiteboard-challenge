@@ -4,8 +4,10 @@ const solution = require('../lib/solution');
 
 describe('Solution Module', () => {
   describe('iteratively', () => {
+
     it('should return a value for the correct input', () => {
       expect(solution.fibIterative(4)).toEqual(3);
+      expect(typeof solution.fibIterative(4)).toBe('number');
     });
     it('should return a null value for the incorrect input', () => {
       expect(solution.fibIterative()).toEqual(null);
@@ -20,6 +22,7 @@ describe('Solution Module', () => {
   describe('recusively', () => {
     it('should return a value for the correct input', () => {
       expect(solution.fibRecursive(4)).toEqual(3);
+      expect(typeof solution.fibRecursive(4)).toBe('number');
     });
     it('should return a null value for the incorrect input', () => {
       expect(solution.fibRecursive()).toEqual(null);
