@@ -1,0 +1,17 @@
+{
+  "name": "challenge-33",
+  "version": "1.0.0",
+  "description": "32: Whiteboard Challenge Requirements The fibonacci series is an ordering of numbers where each number is the sum of the preceeding two.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Koko",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.4.2"
+  }
+}
